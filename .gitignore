@@ -1,0 +1,8 @@
+# Terraform  Variables
+vars/
+
+# Terraform State and Lock
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
