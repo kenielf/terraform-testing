@@ -1,9 +1,10 @@
 terraform {
   backend "s3" {
-    bucket  = "kenielf-terraform"
-    key     = "terraform/tfstate"
-    region  = "us-east-1"
-    profile = "terraform"
+    bucket       = "kenielf-terraform"
+    key          = "terraform/tfstate"
+    region       = "us-east-1"
+    profile      = "terraform"
+    use_lockfile = true
   }
 }
 
